@@ -1,0 +1,157 @@
+.backup-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  padding: 20px;
+
+  .outer-wrapper {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 52px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 5;
+    transition: opacity .3s ease;
+    border-radius: 6px;
+    background: rgb(49, 49, 54);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+
+    >span {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+
+    &.dragging {
+      .toolbar-wrapper {
+        pointer-events: none;
+      }
+    }
+
+    &.static {
+      animation: move-down ease .3s;
+    }
+
+    &.show {
+      opacity: 1;
+
+      &.static {
+        animation: move-up ease .3s;
+      }
+    }
+  }
+
+  // .toolbar-wrapper {
+  //   display: flex;
+  //   align-items: center;
+  //   padding: 8px 16px;
+  //   border-radius: 10px;
+  //   border: 1px solid var(--divider_primary);
+  //   background: var(--basic_elevated);
+  //   /* chrome 上 backdrop-filter 和动画结合后会有问题 */
+  //   /* https://bugs.chromium.org/p/chromium/issues/detail?id=986206 */
+  //   overflow: visible;
+  //   user-select: none;
+  // }
+
+
+  @keyframes move-up {
+    0% {
+      bottom: -52px;
+    }
+
+    100% {
+      bottom: 52px;
+    }
+  }
+
+  @keyframes move-down {
+    0% {
+      bottom: 52px;
+    }
+
+    100% {
+      bottom: -52px;
+      opacity: 0;
+    }
+  }
+
+  .ant-table-row-selected {
+    .ant-table-selection-column {
+      opacity: 1 !important;
+    }
+  }
+
+  .ant-table-row {
+    .text{
+      cursor: default;
+    }
+    .ant-table-selection-column {
+      opacity: 0;
+      position: relative;
+      .ant-checkbox-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        .ant-checkbox{
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+        }
+        .ant-checkbox,.ant-checkbox-inner::after{
+          transition: none;
+        }
+        .ant-checkbox::after{
+          animation: none;
+        }
+      }
+    }
+    &:hover {
+      .ant-table-selection-column {
+        opacity: 1;
+      }
+    }
+
+  }
+
+  .ant-table-thead {
+    .ant-table-cell {
+      background-color: #fff;
+      font-size: 12px;
+      color: rgba(37, 38, 43, 0.36);
+      cursor: pointer;
+
+      &:hover {
+        color: rgba(37, 38, 43, 0.72);
+      }
+    }
+  }
+
+  .ant-table-selection-column {
+    padding: 12px 0 !important;
+  }
+
+  tbody {
+    tr {
+      >td:nth-child(2) {
+        padding-left: 0 !important;
+      }
+    }
+  }
+}

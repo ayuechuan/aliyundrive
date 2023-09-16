@@ -1,0 +1,127 @@
+{
+  "items": [
+      {
+          "created_at": "2022-03-22T14:19:18.354Z",
+          "drive_id": "303637970",
+          "file_id": "6239dae64ddb4b76341e42d9b0fff7b2c3d6367a",
+          "name": "来自分享",
+          "parent_file_id": "root",
+          "starred": false,
+          "type": "folder",
+          "updated_at": "2022-03-22T14:19:18.354Z"
+      },
+      {
+          "created_at": "2023-09-13T16:59:12.482Z",
+          "drive_id": "303637970",
+          "file_id": "6501ea60c3df21829f61435dace732d32c794a63",
+          "name": "新建文件夹5",
+          "parent_file_id": "root",
+          "starred": false,
+          "type": "folder",
+          "updated_at": "2023-09-13T16:59:12.482Z",
+          "user_meta": "{\"channel\":\"file_upload\",\"client\":\"web\"}",
+          "user_tags": {
+              "channel": "file_upload",
+              "client": "web",
+              "device_id": "p8aIHSFw+TECAavdii2YJR2G",
+              "device_name": "chrome",
+              "version": "v4.9.0"
+          }
+      },
+      {
+          "created_at": "2023-09-13T16:59:06.909Z",
+          "drive_id": "303637970",
+          "file_id": "6501ea5a1cafbb50e19349e69beb38af9b842c65",
+          "name": "新建文件夹3",
+          "parent_file_id": "root",
+          "starred": false,
+          "type": "folder",
+          "updated_at": "2023-09-13T16:59:06.909Z",
+          "user_meta": "{\"channel\":\"file_upload\",\"client\":\"web\"}",
+          "user_tags": {
+              "channel": "file_upload",
+              "client": "web",
+              "device_id": "p8aIHSFw+TECAavdii2YJR2G",
+              "device_name": "chrome",
+              "version": "v4.9.0"
+          }
+      },
+      {
+          "created_at": "2023-09-13T16:59:03.680Z",
+          "drive_id": "303637970",
+          "file_id": "6501ea57054c4bf68b354a02abef1aed76114207",
+          "name": "新建文件夹2",
+          "parent_file_id": "root",
+          "starred": false,
+          "type": "folder",
+          "updated_at": "2023-09-13T16:59:03.680Z",
+          "user_meta": "{\"channel\":\"file_upload\",\"client\":\"web\"}",
+          "user_tags": {
+              "channel": "file_upload",
+              "client": "web",
+              "device_id": "p8aIHSFw+TECAavdii2YJR2G",
+              "device_name": "chrome",
+              "version": "v4.9.0"
+          }
+      },
+      {
+          "created_at": "2023-09-13T16:58:56.904Z",
+          "drive_id": "303637970",
+          "file_id": "6501ea509741eb56c9ba480bb2d2b2741409696b",
+          "name": "新建文件夹",
+          "parent_file_id": "root",
+          "starred": false,
+          "type": "folder",
+          "updated_at": "2023-09-13T16:58:56.904Z",
+          "user_meta": "{\"channel\":\"file_upload\",\"client\":\"web\"}",
+          "user_tags": {
+              "channel": "file_upload",
+              "client": "web",
+              "device_id": "p8aIHSFw+TECAavdii2YJR2G",
+              "device_name": "chrome",
+              "version": "v4.9.0"
+          }
+      },
+      {
+          "created_at": "2023-06-12T01:26:18.698Z",
+          "drive_id": "303637970",
+          "file_id": "6486743ab50e235c74a1405199a097b695ca911b",
+          "name": "Git从入门到精通",
+          "parent_file_id": "root",
+          "starred": false,
+          "sync_device_flag": false,
+          "sync_flag": false,
+          "sync_meta": "",
+          "type": "folder",
+          "updated_at": "2023-06-12T01:26:18.698Z"
+      },
+      {
+          "category": "image",
+          "content_hash": "DBF2917C53292DD88E2B2858D04761D6944A35BF",
+          "created_at": "2023-09-13T17:46:56.225Z",
+          "drive_id": "303637970",
+          "file_extension": "jpg",
+          "file_id": "6501f5906a5ee91669bb49babf57c5a6d3a600c4",
+          "mime_type": "image/jpeg",
+          "name": "OT20210117123035487.jpg",
+          "parent_file_id": "root",
+          "punish_flag": 0,
+          "size": 646903,
+          "starred": false,
+          "thumbnail": "https://cn-beijing-data.aliyundrive.net/6013d4d6a52728aeda694bbea14502c4ac45a701%2F6013d4d664b0fa1b9ad84015aa1f266169914e82?security-token=CAIS%2BgF1q6Ft5B2yfSjIr5f9L%2B7du7h75IavWF7ZnW08dMtVmpLNijz2IHFPeHJrBeAYt%2FoxmW1X5vwSlq5rR4QAXlDfNVOTHRyWqFHPWZHInuDox55m4cTXNAr%2BIhr%2F29CoEIedZdjBe%2FCrRknZnytou9XTfimjWFrXWv%2Fgy%2BQQDLItUxK%2FcCBNCfpPOwJms7V6D3bKMuu3OROY6Qi5TmgQ41Uh1jgjtPzkkpfFtkGF1GeXkLFF%2B97DRbG%2FdNRpMZtFVNO44fd7bKKp0lQLukMWr%2Fwq3PIdp2ma447NWQlLnzyCMvvJ9OVDFyN0aKEnH7J%2Bq%2FzxhTPrMnpkSlacGoABkFcEeBjYVfSKm00uVMuTzMDB6N3%2B1xPhvLuYBqbWsEHUZFuRZXLi39xSg74PMWacJyYsix2eQxGqilbk4LAdEnYgaW1IKsTCZLFDaefG7WmRSMQO%2F%2FFXvtOc%2FZJBp0%2FSSCQJkQCMi13Eog5xr%2FTg6VmEdvB53Uc69zVjIIPBun0gAA%3D%3D\u0026x-oss-access-key-id=STS.NTHdTiVgZSDDZxhymixDyuWfh\u0026x-oss-additional-headers=referer\u0026x-oss-expires=1694721420\u0026x-oss-process=image%2Fresize%2Cw_256%2Fformat%2Cavif\u0026x-oss-signature=G4W9AQyY8Tp2tnEQVxqTfvbyGawWKkg7DdTXfjrcMdg%3D\u0026x-oss-signature-version=OSS2",
+          "type": "file",
+          "updated_at": "2023-09-13T17:46:56.225Z",
+          "url": "https://cn-beijing-data.aliyundrive.net/6013d4d6a52728aeda694bbea14502c4ac45a701%2F6013d4d664b0fa1b9ad84015aa1f266169914e82?security-token=CAIS%2BgF1q6Ft5B2yfSjIr5f9L%2B7du7h75IavWF7ZnW08dMtVmpLNijz2IHFPeHJrBeAYt%2FoxmW1X5vwSlq5rR4QAXlDfNVOTHRyWqFHPWZHInuDox55m4cTXNAr%2BIhr%2F29CoEIedZdjBe%2FCrRknZnytou9XTfimjWFrXWv%2Fgy%2BQQDLItUxK%2FcCBNCfpPOwJms7V6D3bKMuu3OROY6Qi5TmgQ41Uh1jgjtPzkkpfFtkGF1GeXkLFF%2B97DRbG%2FdNRpMZtFVNO44fd7bKKp0lQLukMWr%2Fwq3PIdp2ma447NWQlLnzyCMvvJ9OVDFyN0aKEnH7J%2Bq%2FzxhTPrMnpkSlacGoABkFcEeBjYVfSKm00uVMuTzMDB6N3%2B1xPhvLuYBqbWsEHUZFuRZXLi39xSg74PMWacJyYsix2eQxGqilbk4LAdEnYgaW1IKsTCZLFDaefG7WmRSMQO%2F%2FFXvtOc%2FZJBp0%2FSSCQJkQCMi13Eog5xr%2FTg6VmEdvB53Uc69zVjIIPBun0gAA%3D%3D\u0026x-oss-access-key-id=STS.NTHdTiVgZSDDZxhymixDyuWfh\u0026x-oss-additional-headers=referer\u0026x-oss-expires=1694721420\u0026x-oss-process=image%2Fresize%2Cw_1920%2Fformat%2Cavif\u0026x-oss-signature=z51%2BAR3wca%2Bofb3LDkLrqpSFjawgzkMprXKRDQt%2FuY0%3D\u0026x-oss-signature-version=OSS2",
+          "user_meta": "{\"channel\":\"file_upload\",\"client\":\"web\"}",
+          "user_tags": {
+              "channel": "file_upload",
+              "client": "web",
+              "device_id": "76b44c3a-9fee-4ff3-8cfa-e17f855b245a",
+              "device_name": "chrome",
+              "exif_software": "Adobe Photoshop CS Windows",
+              "version": "v4.9.0"
+          }
+      }
+  ],
+  "next_marker": ""
+}

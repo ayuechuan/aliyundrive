@@ -1,0 +1,105 @@
+.nav-sub-bottom-main {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 14px;
+
+  .sign {
+    width: 148px;
+    height: 78px;
+    border-radius: 10px;
+    background-size: contain;
+    margin-bottom: 16px;
+    cursor: pointer;
+    position: relative;
+    background-image: url(https://gw.alicdn.com/imgextra/i1/O1CN01XksrMk1JdP8awkmpT_!!6000000001051-2-tps-444-234.png);
+
+    .download {
+      font-size: 10px;
+      line-height: 12px;
+      color: rgba(37, 38, 43, .72);
+      max-width: 116px;
+      max-width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      position: absolute;
+      left: 42px;
+      top: 29px;
+    }
+
+    .sign-btn{
+      border: 1px solid rgba(132, 133,141, 0.2);
+      width: 136px;
+      height: 20px;
+      border-radius: 11px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 10px;
+      text-align: right;
+      display: flex;
+      align-items: center;
+      -webkit-backdrop-filter: blur(24px);
+      backdrop-filter: blur(24px);
+      color: #25262b;
+      position: absolute;
+      left: 5px;
+      top: 48px;
+    }
+  }
+
+  .storage-wrapper {
+    // height: 30px;
+    display: flex;
+    flex-direction: column;
+    .proportion{
+      display: flex;
+      height: 20px;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+      p{
+        color: rgba(37, 38, 43);
+        font-size: 12px;
+      }
+      div{
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        color: rgb(82,110,250);
+
+        &:hover{
+          color: rgb(122, 144, 255);
+        }
+      }
+    }
+    .ant-progress{
+      margin-bottom: 0;
+    }
+  }
+
+  .membership {
+    margin-top: 16px;
+    font-size: 12px;
+    .ant-btn{
+      border: 1px solid rgba(132, 133,141, 0.16);
+      height: 40px;
+      width: 100%;
+      span{
+        color: rgba(37, 38, 43);
+      }
+      &:hover{
+        background-color: rgba(132, 133,141, 0.08);
+        border: 1px solid rgba(132, 133,141, 0.16);
+      }
+    }
+  }
+}

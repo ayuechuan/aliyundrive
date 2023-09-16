@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  margin-bottom: 16px;
+
+  .search-container {
+    position: relative;
+
+    .ant-modal-content {
+      position: inherit;
+      -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .05), 0 2px 8px rgba(28, 28, 32, .06), 0 16px 48px rgba(28, 28, 32, .2);
+      box-shadow: 0 0 1px 1px rgba(0, 0, 0, .05), 0 2px 8px rgba(28, 28, 32, .06), 0 16px 48px rgba(28, 28, 32, .2);
+
+      .ant-modal-close {
+        top: 32px;
+      }
+    }
+
+    .ant-modal-body {
+      position: none;
+
+      .search-hint {
+        position: absolute;
+        display: flex;
+        background-color: #fff;
+        height: 40px;
+        left: 0;
+        top: calc(100% + 8px);
+        color: rgba(37, 38, 43, 0.72);
+        width: 100%;
+        height: 40px;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        // justify-content: space-between;
+        -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .05), 0 2px 8px rgba(28, 28, 32, .06), 0 16px 48px rgba(28, 28, 32, .2);
+        box-shadow: 0 0 1px 1px rgba(0, 0, 0, .05), 0 2px 8px rgba(28, 28, 32, .06), 0 16px 48px rgba(28, 28, 32, .2);
+        border-radius: 10px;
+        padding-left: 24px;
+        padding-right: 16px;
+        font-size: 12px;
+        line-height: 1.6;
+
+        .filter-item {
+          color: rgb(99, 125, 255);
+          background-color: rgba(99, 125, 255, 0.12);
+          border-radius: 5px;
+          height: 24px;
+          padding-left: 8px;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -ms-flex-align: center;
+          align-items: center;
+          -ms-flex-negative: 0;
+          flex-shrink: 0;
+          font-size: 12px;
+          line-height: 1.6;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+
+  .left {
+    .title {
+      li {
+        color: rgb(37, 38, 43);
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .ant-breadcrumb-spearator{
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  .right {
+    cursor: pointer;
+
+    .ant-input-affix-wrapper {
+      // font-size: 18px;
+      color: rgba(37, 38, 43, 0.36);
+      pointer-events: none;
+      background: rgba(132, 133, 141, .07);
+      border-style: none;
+
+      input {
+        background: none;
+      }
+    }
+  }
+}
