@@ -21,7 +21,7 @@ export const List = observer(() => {
       case 'createFile':
         //  创建文件
         createFile(
-          item.name || `新建文件夹( ${store.dataSource.length + 1} )`,
+          item?.name || `新建文件夹( ${store.dataSource.length + 1} )`,
           (newFileName: string) => {
             store.createSource(new Items({ name: newFileName }));
             return Promise.resolve(true);
